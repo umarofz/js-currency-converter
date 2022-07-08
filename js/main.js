@@ -13,15 +13,23 @@ elForm.addEventListener("submit", function (evt) {
 
 elSelect.addEventListener("change", function () {
   var selectValue = elSelect.value
+
+
 })
 
 elInput.addEventListener("input", function () {
   var inputValue = elInput.value.trim()
-  var rub = 198.99;
-  var euro = 11344.86;
+  var euro = 11138.18;
   var dollar = 10912.30;
   var result = (inputValue * dollar);
-  elRub = (inputValue * rub)
 
   elDiv.textContent = result;
+
+  elRub.addEventListener("change", function () {
+    var inputValue = elInput.value.trim()
+    var rub = 172.46;
+    var result = (inputValue * rub);
+
+    elDiv.textContent = result;
+  })
 })
