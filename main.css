@@ -10,6 +10,7 @@
   margin-top: 150px;
   margin-left: 400px;
   margin-right: 400px;
+  position: relative;
 }
 
 .form__heading {
@@ -34,6 +35,7 @@
   height: 25px;
   border: 1px solid gold;
   border-radius: 5px;
+  background-color: yellow;
 }
 
 .rub__option {
@@ -53,4 +55,22 @@
   color: black;
   border-radius: 5px;
   font-size: 16px;
+}
+
+option {
+  background-color: #fff;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background: none;
+  background-color: crimson;
+  color: white;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 5px;
+  position: absolute;
+  top: 121px;
+  left: 50%;
 }
